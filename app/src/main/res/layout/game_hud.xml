@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/page2PrimaryDark"
+        android:elevation="4dp"
+        android:padding="0dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/high_score_icon_text"
+                    layout="@layout/icon_text" />
+
+                <include
+                    android:id="@+id/score_icon_text"
+                    layout="@layout/icon_text" />
+
+                <include
+                    android:id="@+id/timer_icon_text"
+                    layout="@layout/icon_text" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:progressDrawable="@drawable/custom_progress_bar"
+                android:layout_gravity="bottom"
+                android:max="@integer/game_duration_millis"
+                android:padding="0dp"
+                android:progress="0" />
+
+        </FrameLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tip_text_view"
+        style="@style/tipTextView"
+        android:text="@string/follow_instructions"/>
+
+</merge>

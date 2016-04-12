@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page2Primary"
+    android:fitsSystemWindows="true"
+    android:animateLayoutChanges="true"
+    tools:context=".MatchGameActivity">
+
+
+
+    <com.example.controller.ui.MatchCanvasView
+        android:id="@+id/canvas_game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:visibility="visible"/>
+
+    <include layout="@layout/game_hud" />
+
+    <TextView
+        android:id="@+id/game_over_view"
+        style="@style/gameOverTextView"
+        android:text="@string/game_over"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

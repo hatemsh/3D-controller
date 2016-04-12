@@ -1,0 +1,74 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">3D Controller</string>
+
+    <string name="app_description">CAST REMOTE DISPLAY SAMPLE</string>
+    <string name="app_id">YOUR_CHROME_CAST_APP_ID_HERE</string>
+    <string name="init_error">Error starting the remote display</string>
+
+
+
+    <string name="start_viewer_button">start 3d viewer</string>
+    <string name="start_experiment">START EXPERIMENT</string>
+    <string name="change_color">CHANGE COLOR</string>
+
+    <string name="play">PLAY</string>
+    <string name="offset">OFFSET</string>
+    <string name="shoot">SHOOT</string>
+
+
+    <string name="laser_description">The controller can function similarly to a laser pointer.\n\nPoint to the screen and shoot down the cluster of spiders.</string>
+    <string name="match_description">The controller API can detect a whole range of device orientations, not just portrait and landscape.\n\nTry this simple \"match the orientation\" game for a demonstration.</string>
+    <string name="rotate_description">The controller API is used to apply your device\'s rotation to a 3d model.\n\nHowever you rotate your device, that\'s how the model will rotate!</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="start_3d_button">start 3D viewer</string>
+    <string name="start_match_button">play game</string>
+    <string name="start_laser_button">play game</string>
+
+    <string name="step_stand_in_front_tv">Position yourself in front of the TV</string>
+    <string name="step_hold_phone_remote">Hold your phone with its screen facing up (like a remote)</string>
+    <string name="step_hold_phone_parallel">Hold your phone with its screen facing you (parallel to the TV)</string>
+    <string name="step_point_phone_screen">Point your phone to the center of the TV screen</string>
+    <string name="step_click_play">Press "NEW GAME"</string>
+    <string name="step_click_start">Press "START"</string>
+    <string name="match_tip">Hold your phone as shown to score a point</string>
+    <string name="laser_tip">Click anywhere on your phone screen to shoot</string>
+    <string name="new_game">NEW GAME</string>
+    <string name="start">START</string>
+    <string name="choose_experiment">Choose an experiment on you phone</string>
+    <string name="game_over">TIME\'S UP!</string>
+    <string name="action_about">About</string>
+    <string name="follow_instructions">Follow the instructions on your phone</string>
+    <string name="model_viewer_tip">Move your device around to manipulate the chair</string>
+
+    <string name="about_content">This Android Experiment turns your phone into a 3D controller. It detects the device\'s orientation in 3D space (where it\'s pointing and how it\'s rotated) and makes that information accessible through a simple API.
+        \n\nThis app shows 3 demos that use the controller API.
+
+
+\n\nThe controller API and this app were made specifically for the Android Experiments 2016 Challenge.
+        \n\nDeveloped by Hatem Shahbari &amp; Yury Sachnovskiy
+</string>
+    <string name="paused">PAUSED</string>
+
+    <string-array name="steps_match">
+        <item>@string/step_stand_in_front_tv</item>
+        <item>@string/step_hold_phone_parallel</item>
+        <item>@string/step_click_play</item>
+    </string-array>
+
+    <string-array name="steps_3d_viewer">
+        <item>@string/step_stand_in_front_tv</item>
+        <item>@string/step_hold_phone_parallel</item>
+        <item>@string/step_click_start</item>
+    </string-array>
+
+    <string-array name="steps_laser">
+        <item>@string/step_stand_in_front_tv</item>
+        <item>@string/step_hold_phone_remote</item>
+        <item>@string/step_point_phone_screen</item>
+        <item>@string/step_click_play</item>
+    </string-array>
+
+
+</resources>

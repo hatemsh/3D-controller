@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:background="@color/page2Primary"
+             tools:context=".ui.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingTop="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        tools:text="@string/match_description"/>
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/white_1000"
+        android:id="@+id/start_experiment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        tools:text="START EXPERIMENT"
+        android:layout_marginBottom="24dp"/>
+
+</FrameLayout>
